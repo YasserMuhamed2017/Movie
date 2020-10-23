@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".MoviesDetailsActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/backdrop_path"/>
+        </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/poster_path_image"
+            android:layout_width="150dp"
+            android:layout_height="250dp"/>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:id="@+id/title"/>
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:text="Release Date: "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/release_date"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:text="language: "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/original_language"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vote Count: "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/vote_count"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rating: "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/vote_average"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Popularity: "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/popularity"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:background="#d3d3d3"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/overview"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:background="#d3d3d3"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="GET REVIEWS"
+        android:textColor="#000000"
+        android:layout_marginBottom="20dp"
+        android:textSize="25dp"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:background="#d3d3d3"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="1dp"/>
+    <TextView
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reviews"/>
+    <View
+        android:layout_width="wrap_content"
+        android:background="#d3d3d3"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="1dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontal_recyclerview"
+        android:orientation="horizontal"/>
+
+</LinearLayout>
+</ScrollView>
