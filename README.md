@@ -19,22 +19,17 @@ activity to show them in another activity.
 
 ## Screenshots
 
-![photo_2020-10-24_13-55-38](https://user-images.githubusercontent.com/26174282/97081153-bfe1f600-1600-11eb-95fc-513b0b9ee3cd.jpg)
+<img src="https://user-images.githubusercontent.com/26174282/97081153-bfe1f600-1600-11eb-95fc-513b0b9ee3cd.jpg" width="275" height="556"><br />
 
+<img src="https://user-images.githubusercontent.com/26174282/97081154-c2445000-1600-11eb-8b32-53eaf8367bf7.jpg" width="275" height="556"><br />
 
-![photo_2020-10-24_13-55-43](https://user-images.githubusercontent.com/26174282/97081154-c2445000-1600-11eb-8b32-53eaf8367bf7.jpg)
+<img src="https://user-images.githubusercontent.com/26174282/97081156-c3757d00-1600-11eb-9479-580e8aee5603.jpg" width="275" height="556"><br />
 
+<img src="https://user-images.githubusercontent.com/26174282/97081157-c4a6aa00-1600-11eb-9624-c09ecdaba287.jpg" width="275" height="556"><br />
 
-![photo_2020-10-24_13-55-47](https://user-images.githubusercontent.com/26174282/97081156-c3757d00-1600-11eb-9479-580e8aee5603.jpg)
+<img src="https://user-images.githubusercontent.com/26174282/97081159-c6706d80-1600-11eb-8218-41c6ca1b71e2.jpg" width="275" height="556"><br />
 
-
-![photo_2020-10-24_13-55-51](https://user-images.githubusercontent.com/26174282/97081157-c4a6aa00-1600-11eb-9624-c09ecdaba287.jpg)
-
-
-![photo_2020-10-24_13-54-21](https://user-images.githubusercontent.com/26174282/97081159-c6706d80-1600-11eb-8218-41c6ca1b71e2.jpg)
-
-
-![photo_2020-10-24_13-55-27](https://user-images.githubusercontent.com/26174282/97081160-c7090400-1600-11eb-805f-42acedb2ba49.jpg)
+<img src="https://user-images.githubusercontent.com/26174282/97081160-c7090400-1600-11eb-805f-42acedb2ba49.jpg" width="275" height="556"><br />
 
 ## Libraries
 
